@@ -1,0 +1,179 @@
+body , html
+{
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+.container-fluid{
+	padding:0px;
+	margin:0px;
+}
+.overall-content{
+	height:100%;
+	padding:0px;
+	margin:0px;
+	margin-top:51px;
+	}
+.display-table
+{
+	
+	padding:0px;
+	margin:0px;
+	display:table;
+	height:100%;
+}
+.display-row
+{
+	
+	padding:0px;
+	margin:0px;
+	order:1px solid red;
+	display:table-row;
+	height:100%;
+}
+.display-cell
+{
+	order:1px solid black;
+	display:table-cell;
+	height:100%;
+	padding:0px;
+}
+.sidebar
+{
+	background:rgb(0,41,83);
+	color:white;
+	padding:0px;
+	padding-top:10px;
+	
+}
+.sidebar h4
+{
+	padding-left:30px;
+	font-size:25px;
+	font-weight:bold;
+}
+.sidebar ul 
+{
+	margin-top:30px;
+	border-top:1px solid rgb(0,80,159);
+	padding:0px;
+}
+.sidebar ul  li 
+{
+	order:1px solid red;
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}
+.sidebar ul  li a
+{
+	border-bottom:1px solid rgb(0,80,159);
+	text-decoration:none;
+	color:white;
+	margin:0px;
+	height:40px;
+	text-align:center;
+	font-size:17px;
+	padding-top:5px;
+	
+}
+
+.sidebar ul  li a:hover
+{
+	background:rgb(0,28,55);
+	font-size:16px;
+}
+
+.sidebar ul  li a.active
+{
+	background:rgb(0,28,55);
+	font-size:16px;
+}
+
+.body
+{	
+	
+	height:100%;
+	background:#f2f2f3;
+	padding:0px;
+}
+.body-header
+{
+	border:1px solid black;
+	background:white;
+	box-shadow:0px 0px 5px black;
+}
+.body-header h4
+{
+	padding-left:10px;
+	font-size:24px;
+}
+
+.body-content{
+	padding-top:50px;
+	border:1px solid black;
+	margin-top:70px;
+	background-color:white;
+	height:100%;
+	box-shadow:0px 0px 4px black;
+}
+.att-form{
+	overflow:scroll;
+}
+.att-form a
+{
+	color:white;
+	text-decoration:none;
+}
+#add_wk
+{
+	border:1px solid black;
+	margin-bottom:20px;
+	padding-top:20px;
+	margin-top:10px;
+	padding-bottom:10px;
+	box-shadow:0px 0px 4px black;
+}
+
+#add_wk_excel
+{
+	border:1px solid black;
+	margin-bottom:20px;
+	padding-top:20px;
+	margin-top:10px;
+	box-shadow:0px 0px 4px black;
+}
+#add_mb
+{
+	border:1px solid black;
+	margin-bottom:20px;
+	padding-top:20px;
+	margin-top:10px;
+	box-shadow:0px 0px 4px black;
+}
+
+#add_mb_excel
+{
+	border:1px solid black;
+	margin-bottom:20px;
+	padding-top:20px;
+	margin-top:10px;
+	box-shadow:0px 0px 4px black;
+}
+
+.chosen-container{
+	width:100%!important;
+}
+#wk_table
+{
+	margin-top:30px;
+}
+#add_form
+{
+	border-bottom:1px solid black;
+	padding-bottom:20px;
+} 
+#add_mb form 
+{
+	padding-bottom:20px;
+}
